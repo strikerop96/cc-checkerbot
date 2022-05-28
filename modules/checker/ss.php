@@ -9,11 +9,12 @@
 */
 
 
-include __DIR__."/../config/config.php";
-include __DIR__."/../config/variables.php";
-include_once __DIR__."/../functions/bot.php";
-include_once __DIR__."/../functions/db.php";
-include_once __DIR__."/../functions/functions.php";
+include __DIR__."config/config.php";
+include __DIR__."config/variables.php";
+include __DIR__."functions/bot.php";
+include __DIR__."functions/db.php";
+include __DIR__."functions/functions.php";
+
 
 ////////////====[MUTE]====////////////
 if(strpos($message, "/ss ") === 0 || strpos($message, "!ss ") === 0){   
@@ -87,7 +88,6 @@ if(strpos($message, "/ss ") === 0 || strpos($message, "!ss ") === 0){
             
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, 'https://lookup.binlist.net/'.$cc.'');
-            curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'Host: lookup.binlist.net',
             'Cookie: _ga=GA1.2.549903363.1545240628; _gid=GA1.2.82939664.1545240628',
