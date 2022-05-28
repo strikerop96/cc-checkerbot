@@ -9,11 +9,11 @@
 */
 
 
-include __DIR__."/../config/config.php";
-include __DIR__."/../config/variables.php";
-include_once __DIR__."/../functions/bot.php";
-include_once __DIR__."/../functions/db.php";
-include_once __DIR__."/../functions/functions.php";
+include __DIR__."config/config.php";
+include __DIR__."config/variables.php";
+include __DIR__."functions/bot.php";
+include __DIR__."functions/db.php";
+include __DIR__."functions/functions.php";
 
 
 ////////////====[MUTE]====////////////
@@ -73,8 +73,8 @@ if(strpos($message, "/iban ") === 0){
 <ins>City:</ins>  <b>$city</b>
 <ins>Time:</ins>  <code>$timetaken</code><code>s</code>
 <b>━━━━━━━━━━━━━
-Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>CHECKBY → <a href='tg://user?id=$userId'>$firstname</a></b>
+<b>BOTBY → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
@@ -87,8 +87,8 @@ Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
 <ins>Time:</ins>  <code>$timetaken</code><code>s</code>
 <b>━━━━━━━━━━</b>
 
-<b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>CHECKBY → <a href='tg://user?id=$userId'>$firstname</a></b>
+<b>BOTBY → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
