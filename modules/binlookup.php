@@ -9,11 +9,11 @@
 */
 
 
-include __DIR__."/../config/config.php";
-include __DIR__."/../config/variables.php";
-include_once __DIR__."/../functions/bot.php";
-include_once __DIR__."/../functions/db.php";
-include_once __DIR__."/../functions/functions.php";
+include __DIR__."config/config.php";
+include __DIR__."config/variables.php";
+include __DIR__."functions/bot.php";
+include __DIR__."functions/db.php";
+include __DIR__."functions/functions.php";
 
 
 ////////////====[MUTE]====////////////
@@ -50,7 +50,6 @@ if(strpos($message, "/bin ") === 0 || strpos($message, "!bin ") === 0){
             ###CHECKER PART###  
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, 'https://lookup.binlist.net/'.$bin.'');
-            curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'Host: lookup.binlist.net',
             'Cookie: _ga=GA1.2.549903363.1545240628; _gid=GA1.2.82939664.1545240628',
@@ -102,7 +101,8 @@ if(strpos($message, "/bin ") === 0 || strpos($message, "!bin ") === 0){
                 'chat_id'=>$chat_id,
                 'message_id'=>$messageidtoedit,
                 'text'=>"<b>❌ INVALID BIN LENGTH ❌</b>
-<b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>",
+<b>CHECKBY → <a href='tg://user?id=$userId'>$firstname</a></b>
+<b>BOTBY → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
                 'parse_mode'=>'html',
                 'reply_to_message_id'=> $message_id]);}
             
@@ -119,8 +119,8 @@ Bank Name: <b><ins>$bank</ins></b>
 Country: <b><ins>$bname</ins> - 💲<ins>$currency</ins></b>
 Issuers Contact: <b><ins>$phone</ins></b>
 <b>━━━━━━━━━━━━━
-Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>CHECKBY → <a href='tg://user?id=$userId'>$firstname</a></b>
+<b>BOTBY → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
               'parse_mode'=>'html',
               'reply_to_message_id'=> $message_id,
               'disable_web_page_preview'=>'true']);}
