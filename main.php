@@ -39,19 +39,22 @@ if(!isBanned($userId) && !isMuted($userId)){
     addUser($userId);
     bot('sendmessage',[
         'chat_id'=>$chat_id,
-        'text'=>"<b>Hello @$username,
+        'text'=>"<b>Hey! Wassup What Can i Do For You,
 
-Type /cmds to know all my commands!</b>
+Send /cmds for a list of all commands!
+
+My Master →@strikerop95
+Bot By @strikermarket</b>
 
 $messagesec",
 	'parse_mode'=>'html',
 	'reply_to_message_id'=> $message_id,
     'reply_markup'=>json_encode(['inline_keyboard' => [
         [
-          ['text' => "💠 Created By 💠", 'url' => "t.me/strikerop95"]
+          ['text' => "🔥 Created By 🔥", 'url' => "t.me/strikerop95"]
         ],
         [
-          ['text' => "💎 Join Channel 💎", 'url' => "t.me/strikermarket"]
+          ['text' => "🔱 Join Channel 🔱", 'url' => "t.me/strikermarket"]
         ],
       ], 'resize_keyboard' => true])
         
@@ -96,13 +99,16 @@ if(strpos($message, "/cmds") === 0 || strpos($message, "!cmds") === 0){
     'text'=>"<b>━━CC Checker Gates━━</b>
   
 <b>/ss | !ss - Stripe [Auth]</b>
+
 <b>/sm | !sm - Stripe [Merchant]</b>
+
 <b>/schk | !schk - User Stripe Merchant [Needs SK]</b>
 
-<b>/apikey sk_live_xxx - Add SK Key for /schk gate</b>
-<b>/myapikey | !myapikey - View the added SK Key for /schk gate</b>
+<b>/apikey sk_live_xxx - Add SK Key for for gate</b>
 
-<b>ϟ Join <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>/myapikey | !myapikey - View the added SK Key</b>
+
+<b>ϟ Join Channel → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
     'parse_mode'=>'html',
     'disable_web_page_preview'=>true,
     'reply_markup'=>json_encode(['inline_keyboard'=>[
