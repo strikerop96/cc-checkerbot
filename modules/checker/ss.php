@@ -214,8 +214,8 @@ Time -» <b>$time</b><b>s</b>
 <b>Issuers Contact -»</b> $phone
 <b>----------------------------</b>
 
-<b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>CHECKBY → <a href='tg://user?id=$userId'>$firstname</a></b>
+<b>BOTBY → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
@@ -241,8 +241,8 @@ Time -» <b>$time</b><b>s</b>
 <b>Issuers Contact -»</b> $phone
 <b>----------------------------</b>
 
-<b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>CHECKBY → <a href='tg://user?id=$userId'>$firstname</a></b>
+<b>BOTBY → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
@@ -268,8 +268,8 @@ Time -» <b>$time</b><b>s</b>
 <b>Issuers Contact -»</b> $phone
 <b>----------------------------</b>
 
-<b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>CHECKBY → <a href='tg://user?id=$userId'>$firstname</a></b>
+<b>BOTBY → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
