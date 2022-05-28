@@ -73,8 +73,8 @@ if(strpos($message, "/key ") === 0 || strpos($message, "!key ") === 0){
 Response -» Provided Secret Key is Alive
 Time -» <b>$time</b><b>s</b></b>
 
-<b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>CHECKBY → <a href='tg://user?id=$userId'>$firstname</a></b>
+<b>BOTBY → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
@@ -88,8 +88,8 @@ Time -» <b>$time</b><b>s</b></b>
 Response -» Provided Secret Key is Dead
 Time -» <b>$time</b><b>s</b></b>
 
-<b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>CHECKBY → <a href='tg://user?id=$userId'>$firstname</a></b>
+<b>BOTBY → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
