@@ -125,12 +125,16 @@ if(strpos($message, "/cmds") === 0 || strpos($message, "!cmds") === 0){
     'text'=>"<b>━━Other Commands━━</b>
   
 <b>/me | !me</b> - Your Info
+
 <b>/stats | !stats</b> - Checker Stats
+
 <b>/key | !key</b> - SK Key Checker
+
 <b>/bin | !bin</b> - Bin Lookup
+
 <b>/iban | !iban</b> - IBAN Checker
   
-  <b>ϟ Join <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+  <b>ϟ Join Channel → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
     'parse_mode'=>'html',
     'disable_web_page_preview'=>true,
     'reply_markup'=>json_encode(['inline_keyboard'=>[
