@@ -9,11 +9,11 @@
 */
 
 
-include __DIR__."config/config.php";
-include __DIR__."config/variables.php";
-include __DIR__."functions/bot.php";
-include __DIR__."functions/db.php";
-include __DIR__."functions/functions.php";
+include __DIR__."/config/config.php";
+include __DIR__."/config/variables.php";
+include __DIR__."/functions/bot.php";
+include __DIR__."/functions/functions.php";
+include __DIR__."/functions/db.php";
 
 ////////////====[MUTE]====////////////
 if(strpos($message, "/sm ") === 0 || strpos($message, "!sm ") === 0){   
