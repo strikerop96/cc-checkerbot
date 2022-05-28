@@ -1,7 +1,7 @@
 
-# SDMN CC Checker Bot [Heroku]
+# CC Checker Bot [Heroku]
 
-A Telegram CC Checker Bot with hella lotta features.
+A Telegram CC Checker Bot with lots of features.
 
 
 ## 🚀 Features
@@ -62,7 +62,7 @@ A Telegram CC Checker Bot with hella lotta features.
 
 ### Hosting on Heroku
     
- [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fiam-NVN%2FSDMN_CheckerBot%2Fblob%2Fheroku-version)
+ [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
  - Star and Fork this Repo
  - Click on the Above Shown ```Deploy To Heroku``` Button
  - Get Free Database from [Here](https://freesqldatabase.com)
@@ -75,16 +75,6 @@ A Telegram CC Checker Bot with hella lotta features.
  <br />
 
 
-## 🎯 Author
-
-- [@iam-NVN](https://www.github.com/octokatherine)
-
-## 💸 Donations 
-If you're feeling generous and want to support this project, you can donate 
-
-<a href="https://www.blockchain.com/btc/address/33Kya1FcwLBUfPwfH6GTkyZswH9RZjPr51">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2WR24fnzSsiHf1TmpIWQn_E3qgJTLBcsK5w&usqp=CAU" alt="Bitcoin" height="25" style="margin-left: 15px;"/>
-</a> - Donate through Bitcoin
 
 
   
