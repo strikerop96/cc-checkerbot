@@ -131,11 +131,11 @@ if(strpos($message, "/ss ") === 0 || strpos($message, "!ss ") === 0){
             
             
             $rp1 = array(
-              1 => 'kwnszuaa-rotate:nbv7p37iwa7t@p',
-              2 => 'kwnszuaa-rotate:nbv7p37iwa7t@p',
-              3 => 'user-rotate:pass',
-              4 => 'user-rotate:pass',
-              5 => 'user-rotate:pass',
+              1 => $config['proxy'],
+              2 => $config['proxy'],
+              3 => $config['proxy'],
+              4 => $config['proxy'],
+              5 => $config['proxy'],
               ); 
             
              $rpt = array_rand($rp1);
