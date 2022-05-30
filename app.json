@@ -57,6 +57,11 @@
             "description": "Your Preffered TimeZone",
             "value": "Asia/Kolkata",
             "required": false
+        },
+        "USER_PASS": {
+            "description": "Enter your rotating proxy here.Get it from webshare.io",
+            "value": "",
+            "required": true
         }
     },
     "formation": {
