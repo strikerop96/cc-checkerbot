@@ -1,7 +1,7 @@
 <?php
 
-include __DIR__."/../config/config.php";
-include_once __DIR__."/../functions/bot.php";
+include __DIR__."/config/config.php";
+include __DIR__."/functions/bot.php";
 
 function capture($string, $start, $end)
 {
