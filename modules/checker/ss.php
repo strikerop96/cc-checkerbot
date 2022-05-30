@@ -9,11 +9,11 @@
 */
 
 
-include __DIR__."/app/config/config.php";
-include __DIR__."/app/config/variables.php";
-include __DIR__."/app/functions/bot.php";
-include __DIR__."/app/functions/functions.php";
-include __DIR__."/app/functions/db.php";
+include __DIR__."/config/config.php";
+include __DIR__."/config/variables.php";
+include __DIR__."/functions/bot.php";
+include __DIR__."/functions/functions.php";
+include __DIR__."/functions/db.php";
 
 
 ////////////====[MUTE]====////////////
