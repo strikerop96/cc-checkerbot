@@ -63,6 +63,7 @@ if(strpos($message, "/ss ") === 0 || strpos($message, "!ss ") === 0){
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, 'https://m.stripe.com/6');
             curl_setopt($ch, CURLOPT_HEADER, 0);
+            curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'Host: m.stripe.com',
             'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
@@ -85,6 +86,7 @@ if(strpos($message, "/ss ") === 0 || strpos($message, "!ss ") === 0){
             
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, 'https://lookup.binlist.net/'.$cc.'');
+            curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'Host: lookup.binlist.net',
             'Cookie: _ga=GA1.2.549903363.1545240628; _gid=GA1.2.82939664.1545240628',
