@@ -79,4 +79,15 @@ $config['anti_spam_timer'] =  $_ENV['ANTISPAM_TIMER'];
 |
 */
 $config['sk_keys'] =  explode(",", $_ENV['SK_KEYS']);
+
+/*
+|--------------------------------------------------------------------------
+| webshare proxy
+|--------------------------------------------------------------------------
+|
+| Change this to your webshare proxy
+| It can be obtained from webshare.io
+|
+*/
+$config['proxy'] = $_ENV['USER_PASS'];
 ?>
